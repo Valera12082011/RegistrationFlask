@@ -1,0 +1,16 @@
+{
+    "Register": "Register",
+    "Username": "Username",
+    "Password": "Password",
+    "Avatar": "Avatar",
+    "Registration successful! Please login.": "Registration successful! Please login.",
+    "Already have an account? Login here.": "Already have an account? Login here.",
+    "Login": "Login",
+    "Login successful!": "Login successful!",
+    "Login failed. Check your username and/or password.": "Login failed. Check your username and/or password.",
+    "Avatar not found!": "Avatar not found!",
+    "Please login to access this page.": "Please login to access this page.",
+    "You have been logged out.": "You have been logged out.",
+    "Don't have an account? Register here.": "Don't have an account? Register here.",
+    "Hello" : "Hellow"
+}

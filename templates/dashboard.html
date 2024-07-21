@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ translate('Dashboard') }}</title>
+</head>
+<body>
+    <h1>{{ translate('Hello') }}, {{ username }}!</h1>
+    {% if avatar_url %}
+        <img src="{{ avatar_url }}" alt="Avatar">
+    {% endif %}
+    <a href="{{ url_for('logout') }}">{{ translate('Logout') }}</a>
+    <br>
+    <a href="{{ url_for('set_language', lang='en') }}">English</a> | 
+    <a href="{{ url_for('set_language', lang='uk') }}">Українська</a>
+</body>
+</html>

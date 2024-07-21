@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ translate('Register') }}</title>
+</head>
+<body>
+    <h1>{{ translate('Register') }}</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="username">{{ translate('Username') }}</label>
+        <input type="text" name="username" id="username" required>
+        <label for="password">{{ translate('Password') }}</label>
+        <input type="password" name="password" id="password" required>
+        <label for="avatar">{{ translate('Avatar') }}</label>
+        <input type="file" name="avatar" id="avatar">
+        <button type="submit">{{ translate('Register') }}</button>
+    </form>
+    <a href="{{ url_for('login') }}">{{ translate('Already have an account? Login here.') }}</a>
+    <br>
+    <a href="{{ url_for('set_language', lang='en') }}">English</a> | 
+    <a href="{{ url_for('set_language', lang='uk') }}">Українська</a>
+</body>
+</html>

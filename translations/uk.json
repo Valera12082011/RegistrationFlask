@@ -1,0 +1,16 @@
+{
+    "Register": "Реєстрація",
+    "Username": "Ім'я користувача",
+    "Password": "Пароль",
+    "Avatar": "Аватар",
+    "Registration successful! Please login.": "Реєстрація успішна! Будь ласка, увійдіть.",
+    "Already have an account? Login here.": "Вже є обліковий запис? Увійдіть тут.",
+    "Login": "Вхід",
+    "Login successful!": "Вхід успішний!",
+    "Login failed. Check your username and/or password.": "Не вдалося увійти. Перевірте своє ім'я користувача та/або пароль.",
+    "Avatar not found!": "Аватар не знайдено!",
+    "Please login to access this page.": "Будь ласка, увійдіть, щоб отримати доступ до цієї сторінки.",
+    "You have been logged out.": "Ви вийшли з системи.",
+    "Don't have an account? Register here.": "Немає облікового запису? Зареєструйтеся тут.",
+    "Hello" : "Привіт"
+}

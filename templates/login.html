@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ translate('Login') }}</title>
+</head>
+<body>
+    <h1>{{ translate('Login') }}</h1>
+    <form method="POST">
+        <label for="username">{{ translate('Username') }}</label>
+        <input type="text" name="username" id="username" required>
+        <label for="password">{{ translate('Password') }}</label>
+        <input type="password" name="password" id="password" required>
+        <button type="submit">{{ translate('Login') }}</button>
+    </form>
+    <a href="{{ url_for('register') }}">{{ translate("Don't have an account? Register here.") }}</a>
+    <br>
+    <a href="{{ url_for('set_language', lang='en') }}">English</a> | 
+    <a href="{{ url_for('set_language', lang='uk') }}">Українська</a>
+</body>
+</html>
